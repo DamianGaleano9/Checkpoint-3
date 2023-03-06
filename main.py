@@ -30,3 +30,9 @@ names = 'harry,alex,susie,jared,gail,conner'
 
 set_names = names.split(',')
 print(set_names)
+
+first_world = my_string[0:4]
+second_sentence = my_string[4:]
+
+new_sentence = first_world.upper() + second_sentence
+print(new_sentence)
