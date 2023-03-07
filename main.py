@@ -36,3 +36,16 @@ second_sentence = my_string[4:]
 
 new_sentence = first_world.upper() + second_sentence
 print(new_sentence)
+
+new_age = 35
+name = "Damian"
+
+greeting = f"""
+  "Hy my name is {name}, and right now I have {my_age}, but 
+  on Thursday, I celebrate my{new_age}th.
+  """
+
+print(greeting)
+
+my_hello_world = "Hello World"
+print(my_hello_world)
